@@ -1,5 +1,8 @@
 # wishRockFor2ndCritic
-2차 심사 제출 작품
+2차 심사 제출 작품들 폴더
+
+wishRockScenes.py는 장면의 처음부터 마지막까지 멘트, Ui를 보여주는 단순 씬 이미지 + 클릭시 넘어가는 기능 구현하는 코드
+wishrRockAfterScene는 마지막 장면(scene 17)에서 작동해야하는 관객의 문장을 입력받아 elevenLabs Api를 이용해 성의진의 목소리로 해당 문장을 음성 출력하는 기능을 구현하는 코드
 
 from tkinter import Tk, Canvas, Text, Button, PhotoImage, font
 from elevenlabs import play
